@@ -1,7 +1,7 @@
 ## Online JOB Portal-App
-As a client based project, I designed and developed this for a business to sold their products from
-the application to the client. From this my client could able to handle there business more
-profitably.
+According to a my idea I developed this application for the job seekers who are willing to find
+jobs and who are willing to post jobs, from this I needed to reduce the distance between the job
+seeker and vacancies, I also implement online interview System via WebRTC.
 
 ## Motivation
 
