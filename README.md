@@ -13,7 +13,7 @@ seeker and vacancies, I also implement online interview System via WebRTC.
 
 
 ## Tech/framework used
-
+Java EE, Spring, JSP, JavaScript, WebRTC
 
 ## Features
 
