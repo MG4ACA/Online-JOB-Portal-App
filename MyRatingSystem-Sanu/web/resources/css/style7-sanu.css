@@ -1,0 +1,52 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 15, 2017, 6:04:32 PM
+    Author     : Sanu
+*/
+
+
+.team-sec{float: left;width: 100%;}
+.team .photo {width: 250px; height: 250px; display: inline-block; overflow: hidden; position: relative; }
+.photo-shadow {position: absolute; z-index: -1; top: 12px; left: 16px; bottom: -10px; border: 1px solid #E3E3E3; height: 250px; width: 246px; background: #fff; }
+.col-item{position: relative;}
+.team{margin-top: 60px;}
+.team .photo img{width: 100%;    vertical-align: middle;position: relative;}
+.social-connect{margin-top: 13px;}
+.info{margin-top: 22px;}
+.info .name{font-size: 18px;font-weight: 600;margin-bottom: 2px;}
+.info .degination{font-size: 16px;font-weight: 300;font-style: italic;color: #8B8B8B;}
+.social-connect a{ display: inline-block; border: 1px solid #E3E3E3; font-size: 14px; color: #919191; width: 24px; height: 24px; text-align: center; line-height: 24px;margin-right: 4px;}
+.social-connect a .fa{margin: 0;}
+.social-connect a:hover{background-color: #4EBEE9;color: #fff;}
+.carousel-line > .controls{position: absolute; left: 55%; margin-left: -70px; background: #fff; color: #000;margin-top: 250px;}
+.carousel-line > .controls > a{    color: #868686;  font-weight: 300;}
+
+
+
+.control-label{
+    font-size: 13px;
+}
+
+.sz{
+    cursor: pointer;
+    margin: -10px 0px 5px -20px;
+    font-weight: 600;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    width: auto;
+    min-width: 200px;
+    max-width: 250px;
+    padding: 5px;
+}
+
+.sz:hover{
+    padding-left: 7px;
+    background-color: white;
+}
+
+.amd{
+    border-radius: 20px !important;
+}

@@ -1,0 +1,222 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2017, 2:59:06 PM
+    Author     : Sanu
+*/
+.dfre {
+    height: 645px;
+}
+.row{
+    margin-left:0px;
+    margin-right:0px;
+}
+
+#wrapper {
+    padding-left: 70px;
+    transition: all .4s ease 0s;
+    height: 100%
+}
+/*ch*/
+#sidebar-wrapper {
+    margin-left: -150px;
+    left: 70px;
+    width: 150px;
+    background: white;
+    position: fixed;
+    height: 100%;
+    z-index: 10000;
+    transition: all .4s ease 0s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sidebar-nav {
+    display: block;
+    float: left;
+    width: 150px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#page-content-wrapper {
+    padding-left: 0;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+}
+#wrapper.active {
+    padding-left: 150px;
+}
+#wrapper.active #sidebar-wrapper {
+    left: 150px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+}
+/*//ed*/
+#sidebar_menu li a, .sidebar-nav li a {
+    color: rgba(99, 99, 99, 0.99);
+    display: block;
+    float: left;
+    text-decoration: none;
+    width: 150px;
+    background: white;
+    /*border-top: 1px solid black;*/
+    box-shadow:  0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+    -o-transition: background .5s;
+    -ms-transition: background .5s;
+    transition: background .5s;
+}
+.sidebar_name {
+    padding-top: 25px;
+    color: #fff;
+    opacity: .7;
+}
+
+.sidebar-nav li {
+    line-height: 40px;
+    text-indent: 20px;
+}
+
+.sidebar-nav li a {
+    color: rgba(99, 99, 99, 0.99);
+    display: block;
+    text-decoration: none;
+}
+
+.sidebar-nav li a:hover {
+    color: rgba(19, 84, 149, 0.93);
+    background: rgba(255,255,255,0.2);
+    text-decoration: none;
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-brand {
+    height: 65px;
+    line-height: 60px;
+    font-size: 18px;
+}
+
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: #fff;
+    background: none;
+}
+
+#main_icon
+{
+    float:right;
+    padding-right: 65px;
+    padding-top:20px;
+}
+.sub_icon
+{
+    float:right;
+    padding-right: 65px;
+    padding-top:10px;
+}
+.content-header {
+    height: 65px;
+    line-height: 65px;
+}
+
+.content-header h1 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 65px;
+    display: inline-block;
+}
+
+@media (max-width:767px) {
+    #wrapper {
+        padding-left: 70px;
+        transition: all .4s ease 0s;
+    }
+    #sidebar-wrapper {
+        left: 70px;
+    }
+    #wrapper.active {
+        padding-left: 150px;
+    }
+    #wrapper.active #sidebar-wrapper {
+        left: 150px;
+        width: 150px;
+        transition: all .4s ease 0s;
+    }
+    .g-recaptcha{
+        transform:scale(0.77);
+    }
+}
+
+.label,.glyphicon { margin-right:5px; }
+
+.dropdown:hover .dropdown-menu {
+    /*display: block;*/
+}
+
+.video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.64);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10000 !important;
+}
+
+#demo1{
+    background-color: rgba(0, 0, 0, 0.65);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10000 !important;
+
+}
+
+#serad li{
+    color: white;
+    list-style-type: none;
+}
+
+#serad li a{
+    text-decoration: none;
+    color: white;
+}
+
+.vdvf{
+    background-color: #00000080;;
+    color: black;
+    padding: 8px 300px 8px 10px;
+    margin-left: 15px;
+}
+
+.vd{
+    margin-bottom: 13px;
+}
+
+.vdvf:hover{
+   border-bottom: 1px solid #ffffff80;
+background-color: #ff000080;
+
+}

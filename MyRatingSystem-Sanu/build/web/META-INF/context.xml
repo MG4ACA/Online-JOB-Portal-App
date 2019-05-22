@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/MyRatingSystem-Sanu">
+  <!--  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="50" maxAge="10000" maxIdle="10" maxWait="100000" name="jdbc/myratings" password="sanu" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/myratings?createDatabaseIfNotExist=true" username="root" validationQuery="SELECT 1"/>-->
+</Context>

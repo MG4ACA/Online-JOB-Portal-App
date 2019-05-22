@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 29, 2017, 9:07:42 AM
+    Author     : Sanu
+*/
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.sub{
+    font-size: 11px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.wed{
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+}
+
+.prof{
+    /*height:200px;*/
+    background-color: white;
+    /*border-radius: 5px;*/
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.btnr{
+    background-color: rgba(240, 240, 240, 0.2);
+    border-radius: 25px;
+    color: rgba(99, 99, 99, 0.99);
+    border: 2px solid rgba(99, 99, 99, 0.99);
+
+}
+
+.btnr:hover{
+    color: rgba(19, 84, 149, 0.93);
+}
+
+
+
+
+@media (max-width: 768px) {
+    .btn-responsive {
+        padding:2px 4px;
+        font-size:80%;
+        line-height: 1;
+        border-radius:3px;
+    }
+
+    #main-header{
+        display: none !important;
+    }
+    #cds{
+        margin-top: 12px !important;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .btn-responsive {
+        padding:4px 9px;
+        font-size:90%;
+        line-height: 1.2;
+    }
+
+    #main-header{
+        display: none !important;
+    }
+    #cds{
+        margin-top: 12px !important;
+    }
+
+}
+
