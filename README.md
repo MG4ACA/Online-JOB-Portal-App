@@ -12,11 +12,37 @@ Motivate Companies and employees from a better way without wasting their time wi
  
 ## Screenshots
 
-![Image of Sanu](https://github.com/sanuv9683/Student-Management-App/blob/master/img/A1.png)
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A1.png)
 
 ------
 
-![Image of Sanu](https://github.com/sanuv9683/Student-Management-App/blob/master/img/A2.png)
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A2.png)
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A3.png)
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A4.png)
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A5.png)
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A6.png)
+
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A7.png)
+
+------
+
+![Image of Sanu](https://github.com/sanuv9683/Online-JOB-Portal-App/blob/master/img/A8.png)
+
 
 ## Tech/framework used
 * Java EE 
